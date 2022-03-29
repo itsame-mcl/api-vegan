@@ -4,7 +4,7 @@
 
 # Installation
 
-```bash
+```shell
 git clone https://gitlab.com/maxence-lagalle/clog-food.git
 cd clog-food
 pip install -r requirements.txt
@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 # Lancement
 
-```bash
+```shell
 python main.py
 ```
 
