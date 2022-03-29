@@ -9,6 +9,13 @@ def read_root():
     return {"Hello": "World"}
 
 
+@app.get("/get_EAN/{product_name}")
+def get_EAN(product_name : str):
+    res = OFF.search_code(product_name)
+    if res['count'] > 0:
+        return int(res['products'][0]['_id'])
+
+
 @app.get("/is_vegan/{item_id}")
 def is_vegan(item_id: int):
     result = OFF.get_info(item_id)
