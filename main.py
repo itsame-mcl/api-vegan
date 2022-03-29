@@ -1,4 +1,4 @@
 import uvicorn
-import server
 
-uvicorn.run(server.app)
+
+uvicorn.run("server:app")

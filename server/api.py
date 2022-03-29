@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"get_endpoints": ["get_EAN","is_vegan"]}
 
 
 @app.get("/get_EAN/{product_name}")
