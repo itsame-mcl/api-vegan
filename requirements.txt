@@ -16,7 +16,7 @@ pyparsing==3.0.7
 pytest==7.1.1
 requests==2.32.4
 sniffio==1.2.0
-starlette==0.40.0
+starlette==0.47.2
 tomli==2.0.1
 typing_extensions==4.1.1
 urllib3==2.5.0
